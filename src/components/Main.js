@@ -137,11 +137,36 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <p>
-            Prophecy Web Solutions is a full-service web development agency founded in 2020 in Miami, FL.  Our goal is to provide clients with solutions that will increase business and online conversions by building custom, functional, visually appealing applications
-          </p>
+          <h3>
+            Prophecy Web Solutions is a full-service web development agency founded in 2020 in Miami, Florida.  Our goal is to provide clients with solutions that will increase business and online conversions by building custom, functional, visually appealing applications
+          </h3>
           <span className="image main">
             <img src={pic08} alt="" />
+            <h1></h1>
+            <h1>
+              <li>
+                DEVELOPMENT
+            </li>
+            </h1>
+            <h3>
+              By utilizing the latest technologies on the market, we have the ability to quickly and efficiently get your application built out
+            </h3>
+            <h1>
+              <li>
+                CONSULTATION
+              </li>
+            </h1>
+            <h3>
+              We work closely with UX/UI designers and industry experts in order to educate and integrate, innovative design and optimization services
+            </h3>
+            <h1>
+              <li>
+                MANAGEMENT
+            </li>
+            </h1>
+            <h3>
+              Your application will be managed and hosted with cloud based platforms allowing for seamless and regular management to suite your business needs
+            </h3>
           </span>
           {close}
         </article>
