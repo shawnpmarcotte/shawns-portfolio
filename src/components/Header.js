@@ -9,7 +9,7 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>Prophecy Web Solutions</h1>
-        <p>Miami based web development and design agency specializing <br /> on sites that focus on your clients optimal user experience</p>
+        <p>Miami based web development and design agency specializing <br /> in sites that focus on your clients optimal user experience</p>
       </div>
     </div>
     <nav>
@@ -26,10 +26,10 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('tech')
+              props.onOpenArticle('solutions')
             }}
           >
-            Technology
+            Solutions
           </button>
         </li>
         <li>
@@ -39,15 +39,6 @@ const Header = props => (
             }}
           >
             Projects
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('about')
-            }}
-          >
-            Solutions
           </button>
         </li>
         <li>
