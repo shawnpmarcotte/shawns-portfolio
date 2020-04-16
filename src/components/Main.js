@@ -71,61 +71,61 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects</h2>
+          <h1 className="major">Projects</h1>
+          <h2>Mission Booked | Web App</h2>
           <span className="image main">
-            <h3>Mission Booked | Find a Volunteer Match |<br /> Web Application</h3>
             <img src={pic01} alt="" />
           </span>
-          <p>
+          <h4>
             WHAT: Platform that connects users with the desire to get involved in their community with a volunteer event
-          </p>
-          <p>
+          </h4>
+          <h4>
             HOW: Created and managed our own API/database for the organizations and events rendered upon a query by the user
-          </p>
-          <p>
+          </h4>
+          <h4>
             TECH USED: Ruby, Rails, JavaScript, React, React on Rails, React Spring/Select, HTML/CSS, PostgreSQL, Axios
-          </p>
+          </h4>
+          <h2>Prophesea Fish Tracker + Forum | Web App | Coming Soon!</h2>
           <span className="image main">
-            <h3>Prophesea Fishing App / Forum | Web Application | <br /> Coming Soon!</h3>
             <img src={pic02} alt="" />
           </span>
-          <p>
+          <h4>
             WHAT: Mobile and Web based application that allows users to search for sportfishing species and fishery information | Blog and Forum where fishermen can come together and disuss their favorite topics
-          </p>
+          </h4>
+          <h2>El Taco | Web App</h2>
           <span className="image main">
-            <h3>El Taco | Search For Taco Recipes |<br /> Web Application</h3>
             <img src={pic03} alt="" />
           </span>
-          <p>
+          <h4>
             WHAT: Platform that allows users to search for a wide variety of Taco recipes
-          </p>
-          <p>
+          </h4>
+          <h4>
             HOW: Utilized Edemam API allowing the site to render Taco recipe matches based on user query
-          </p>
-          <p>
+          </h4>
+          <h4>
             TECH USED: JavaScript, React, HTML/CSS, Express, Axios, Material UI
-          </p>
+          </h4>
+          <h2>YSK - Digital Gallery | Web App | Coming Soon!</h2>
           <span className="image main">
-            <h3>YSK Artist - Digital Gallery | Web Application | <br /> Coming Soon!</h3>
             <img src={pic04} alt="" />
           </span>
-          <p>
+          <h4>
             WHAT: Digital Gallery showcasing Artist's work with interactive interface
-          </p>
+          </h4>
+          <h2>Vida Healing - Life Coach | Web App | Coming Soon!</h2>
           <span className="image main">
-            <h3>Vida Healing - Life Coach | Web Application | <br /> Coming Soon!</h3>
             <img src={pic05} alt="" />
           </span>
-          <p>
+          <h4>
             WHAT: Mobile and Web based Business application | Individual, Group, Marriage, and Couples Therapy
-          </p>
+          </h4>
+          <h2>Cana La Reina - Social Collective | Web App | Coming Soon!</h2>
           <span className="image main">
-            <h3>Cana La Reina - Social Collective | Web Application <br /> Coming Soon!</h3>
             <img src={pic06} alt="" />
           </span>
-          <p>
+          <h4>
             WHAT: Digital Social Collective Agency
-          </p>
+          </h4>
           {close}
         </article>
 
