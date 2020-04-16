@@ -3,6 +3,9 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import pic04 from '../images/pic04.jpg'
+import pic05 from '../images/pic05.jpg'
+import pic06 from '../images/pic06.jpg'
 
 class Main extends React.Component {
   render() {
@@ -64,22 +67,58 @@ class Main extends React.Component {
         >
           <h2 className="major">Projects</h2>
           <span className="image main">
+            <h3>Mission Booked | Find a Volunteer Match |<br /> Web Application</h3>
+            <img src={pic01} alt="" />
+          </span>
+          <p>
+            WHAT: Platform that connects users with the desire to get involved in their community with a volunteer event
+          </p>
+          <p>
+            HOW: Created and managed our own API/database for the organizations and events rendered upon a query by the user
+          </p>
+          <p>
+            TECH USED: Ruby, Rails, JavaScript, React, React on Rails, React Spring/Select, HTML/CSS, PostgreSQL, Axios
+          </p>
+          <span className="image main">
+            <h3>Prophesea Fishing App / Forum | Web Application | <br /> Coming Soon!</h3>
             <img src={pic02} alt="" />
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            WHAT: Mobile and Web based application that allows users to search for sportfishing species and fishery information | Blog and Forum where fishermen can come together and disuss their favorite topics
+          </p>
+          <span className="image main">
+            <h3>El Taco | Search For Taco Recipes |<br /> Web Application</h3>
+            <img src={pic03} alt="" />
+          </span>
+          <p>
+            WHAT: Platform that allows users to search for a wide variety of Taco recipes
           </p>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+            HOW: Utilized Edemam API allowing the site to render Taco recipe matches based on user query
+          </p>
+          <p>
+            TECH USED: JavaScript, React, HTML/CSS, Express, Axios, Material UI
+          </p>
+          <span className="image main">
+            <h3>YSK Artist - Digital Gallery | Web Application | <br /> Coming Soon!</h3>
+            <img src={pic04} alt="" />
+          </span>
+          <p>
+            WHAT: Digital Gallery showcasing Artist's work with interactive interface
+          </p>
+          <span className="image main">
+            <h3>Vida Healing - Life Coach | Web Application | <br /> Coming Soon!</h3>
+            <img src={pic05} alt="" />
+          </span>
+          <p>
+            WHAT: Mobile and Web based Business application | Individual, Group, Marriage, and Couples Therapy
+          </p>
+          <span className="image main">
+            <h3>Cana La Reina - Social Collective | Web Application <br /> Coming Soon!</h3>
+            <img src={pic06} alt="" />
+          </span>
+          <p>
+            WHAT: Digital Social Collective Agency
           </p>
           {close}
         </article>
@@ -93,7 +132,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={pic02} alt="" />
           </span>
           <p>
             Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
