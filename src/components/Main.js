@@ -7,6 +7,7 @@ import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
 import pic07 from '../images/pic07.jpg'
+import pic08 from '../images/pic08.jpg'
 
 class Main extends React.Component {
   render() {
@@ -136,18 +137,37 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
+          <h3>
+            Prophecy Web Solutions is a full-service web development agency founded in 2020 in Miami, Florida.  Our goal is to provide clients with solutions that will increase business and online conversions by building custom, functional, visually appealing applications
+          </h3>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic08} alt="" />
+            <h1></h1>
+            <h1>
+              <li>
+                DEVELOPMENT
+            </li>
+            </h1>
+            <h3>
+              By utilizing the latest technologies on the market, we have the ability to quickly and efficiently get your application built out
+            </h3>
+            <h1>
+              <li>
+                CONSULTATION
+              </li>
+            </h1>
+            <h3>
+              We work closely with UX/UI designers and industry experts in order to educate and integrate, innovative design and optimization services
+            </h3>
+            <h1>
+              <li>
+                MANAGEMENT
+            </li>
+            </h1>
+            <h3>
+              Your application will be managed and hosted with cloud based platforms allowing for seamless and regular management to suite your business needs
+            </h3>
           </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
           {close}
         </article>
 
