@@ -6,6 +6,7 @@ import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
+import pic07 from '../images/pic07.jpg'
 
 class Main extends React.Component {
   render() {
@@ -32,29 +33,33 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Technology</h2>
+          <p>
+            At Prophecy Web Solutions, we develop innovative and functional custom web applications that generate more revenue and improve efficiency for your business using the latest technology in the market
+          </p>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={pic07} alt="" />
           </span>
+          <h3 className="major">Frontend</h3>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Our front-end toolbox extends from HTML, CSS, javascript, Angular, React, and SASS asset pre-compilers. We design your applications with built in standards-compliant and mobile responsive solutions
           </p>
+          <span className="image main">
+            <img src={pic07} alt="" />
+          </span>
+          <h3 className="major">Backend</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+            Our back-end stack includes Ruby, Rails, JavaScript, and postgreSQL and SQL for database management. We aim to use the most efficient back-end technologies, allowing for fast development and testing, deployment, versatility, and customization
           </p>
+          <span className="image main">
+            <img src={pic07} alt="" />
+          </span>
+          <h3 className="major">API Integration</h3>
+          <p>
+            With thousands of APIs available on the market, we have the access and ability to incorporate them into your application depending on your business needs and goals. Whether you need analytics, weather, maps, nearby locations, payment processing, or social media APIs, we have the integration solution for you
+          </p>
+          <span className="image main">
+            <img src={pic07} alt="" />
+          </span>
           {close}
         </article>
 
