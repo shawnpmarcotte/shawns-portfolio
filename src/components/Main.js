@@ -8,7 +8,9 @@ import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
 import pic07 from '../images/pic07.jpg'
 import pic08 from '../images/pic08.jpg'
-import pic09 from '../images/pic09.jpg'
+import pic10 from '../images/pic10.jpg'
+import pic11 from '../images/pic11.jpg'
+import pic12 from '../images/pic12.jpg'
 
 class Main extends React.Component {
   render() {
@@ -34,31 +36,31 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Solutions</h2>
-          <p>
+          <h1 className="major">Solutions</h1>
+          <h3>
             At Prophecy Web Solutions, we develop innovative and functional custom web applications that generate more revenue and improve efficiency for your business using the latest technology in the market
-          </p>
+          </h3>
           <span className="image main">
-            <img src={pic07} alt="" />
+            <img src={pic12} alt="" />
           </span>
-          <h3 className="major">Frontend</h3>
-          <p>
+          <h2 className="major">Frontend</h2>
+          <h4>
             Our front-end toolbox extends from HTML, CSS, javascript, Angular, React, and SASS asset pre-compilers. We design your applications with built in standards-compliant and mobile responsive solutions
-          </p>
+          </h4>
           <span className="image main">
-            <img src={pic09} alt="" />
+            <img src={pic11} alt="" />
           </span>
-          <h3 className="major">Backend</h3>
-          <p>
+          <h2 className="major">Backend</h2>
+          <h4>
             Our back-end stack includes Ruby, Rails, JavaScript, and postgreSQL and SQL for database management. We aim to use the most efficient back-end technologies, allowing for fast development and testing, deployment, versatility, and customization
-          </p>
+          </h4>
           <span className="image main">
-            <img src={pic07} alt="" />
+            <img src={pic10} alt="" />
           </span>
-          <h3 className="major">API Integration</h3>
-          <p>
+          <h2 className="major">API Integration</h2>
+          <h4>
             With thousands of APIs available on the market, we have the access and ability to incorporate them into your application depending on your business needs and goals. Whether you need analytics, weather, maps, nearby locations, payment processing, or social media APIs, we have the integration solution for you
-          </p>
+          </h4>
           <span className="image main">
             <img src={pic07} alt="" />
           </span>
