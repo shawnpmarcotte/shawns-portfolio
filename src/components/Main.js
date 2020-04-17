@@ -169,7 +169,7 @@ class Main extends React.Component {
             </li>
             </h1>
             <h3>
-              Your application will be managed and hosted with cloud based platforms allowing for seamless and regular management to suite your business needs
+              Your application will be managed and hosted with cloud based platforms allowing for seamless and regular management to suit your business needs
             </h3>
           </span>
           {close}
