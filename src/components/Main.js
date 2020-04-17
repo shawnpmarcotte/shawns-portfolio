@@ -11,6 +11,7 @@ import pic08 from '../images/pic08.jpg'
 import pic10 from '../images/pic10.jpg'
 import pic11 from '../images/pic11.jpg'
 import pic12 from '../images/pic12.jpg'
+import resume from '../images/resume.pdf'
 
 class Main extends React.Component {
   render() {
@@ -189,8 +190,12 @@ class Main extends React.Component {
               <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
+              <label htmlFor="email">Phone Number</label>
+              <input type="tel" name="tel" id="tel" />
+            </div>
+            <div className="field">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <textarea name="email" id="email" rows="1"></textarea>
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
@@ -208,29 +213,24 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/shawnpmarcotte"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
               </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/shawn-marcotte-jr/"
+                className="icon fa-linkedin"
+              >
+                <span className="label">linkedin</span>
+              </a>
+            </li>
+            <li className="resume">
+              <a href={resume} title="DOWNLOAD SHAWN'S RESUME" download="Resume_Shawn Marcotte"
+                className="icon fal fa-file"
+              ></a>
             </li>
           </ul>
           {close}

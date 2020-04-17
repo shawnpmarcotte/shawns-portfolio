@@ -6,6 +6,10 @@
 
 /* Main */
 
+
+.resume a {display:none;}
+.resume a:hover {display:block;}
+
 	#main {
 		@include vendor('flex-grow', '1');
 		@include vendor('flex-shrink', '1');
