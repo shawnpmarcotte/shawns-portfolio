@@ -8,6 +8,7 @@ import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
 import pic07 from '../images/pic07.jpg'
 import pic08 from '../images/pic08.jpg'
+import pic09 from '../images/pic09.jpg'
 
 class Main extends React.Component {
   render() {
@@ -45,7 +46,7 @@ class Main extends React.Component {
             Our front-end toolbox extends from HTML, CSS, javascript, Angular, React, and SASS asset pre-compilers. We design your applications with built in standards-compliant and mobile responsive solutions
           </p>
           <span className="image main">
-            <img src={pic07} alt="" />
+            <img src={pic09} alt="" />
           </span>
           <h3 className="major">Backend</h3>
           <p>
