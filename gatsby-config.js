@@ -21,4 +21,3 @@ module.exports = {
     'gatsby-plugin-sass',
   ],
 }
-// icon: 'src/images/gatsby-icon.png',
