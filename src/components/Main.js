@@ -140,9 +140,9 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h1 className="major">About</h1>
           <h3>
-            Prophecy Web Solutions is a full-service web development agency founded in 2020 in Miami, Florida.  Our goal is to provide clients with solutions that will increase business and online conversions by building custom, functional, visually appealing applications
+            Prophecy Web Solutions is a full-service web development agency founded in 2020 in Miami Florida, by Shawn Marcotte Jr.  Our goal is to provide clients with solutions that will increase business and online conversions by building custom, functional, aesthetically pleasing applications
           </h3>
           <span className="image main">
             <img src={pic08} alt="" />
@@ -153,7 +153,7 @@ class Main extends React.Component {
             </li>
             </h1>
             <h3>
-              By utilizing the latest technologies on the market, we have the ability to quickly and efficiently get your application built out
+              By utilizing the latest technologies on the market, we have the ability to quickly and efficiently get your application up and running
             </h3>
             <h1>
               <li>
@@ -161,7 +161,7 @@ class Main extends React.Component {
               </li>
             </h1>
             <h3>
-              We work closely with UX/UI designers and industry experts in order to educate and integrate, innovative design and optimization services
+              We work closely with UX/UI designers and industry experts in order to educate and integrate innovative design / optimization services
             </h3>
             <h1>
               <li>
@@ -182,7 +182,7 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h1 className="major">Contact</h1>
           <form method="post" netlify-honeypot="bot-field" data-netlify="true">
             <input type="hidden" name="bot-field" />
             <div className="field half first">
