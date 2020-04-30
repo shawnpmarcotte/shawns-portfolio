@@ -128,7 +128,7 @@ class Main extends React.Component {
             <img src={pic06} alt="" />
           </span>
           <h4>
-            WHAT: Digital Social Collective Agency
+            WHAT: Digital Social Media Marketing Agency | Agency that specializes in engaging and custom content creation that establishes and elevates brand identity for small businesses
           </h4>
           {close}
         </article>
