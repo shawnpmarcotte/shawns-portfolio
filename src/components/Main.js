@@ -1,17 +1,16 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import sc from '../images/sc.png'
 import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
-import pic07 from '../images/pic07.jpg'
-import pic08 from '../images/pic08.jpg'
-import pic10 from '../images/pic10.jpg'
-import pic11 from '../images/pic11.jpg'
-import pic12 from '../images/pic12.jpg'
-import resume from '../images/resume.pdf'
+import consultation from '../images/consultation.jpg'
+import compass from '../images/compass.jpg'
+import shoes from '../images/shoes.jpg'
+import cube from '../images/cube.jpg'
+import code from '../images/code.jpg'
+import vida from '../images/vida.png'
 
 class Main extends React.Component {
   render() {
@@ -39,31 +38,25 @@ class Main extends React.Component {
         >
           <h1 className="major">Solutions</h1>
           <h3>
-            At Prophecy Web Solutions, we develop innovative and functional custom web applications that generate more revenue and improve efficiency for your business using the latest technology in the market
+            BY UTILIZING THE LATEST TECHNOLOGIES ON THE MARKET, WE HAVE THE ABILITY TO QUICKLY AND EFFICIENTLY GET YOUR APPLICATION UP AND RUNNING.
           </h3>
           <span className="image main">
-            <img src={pic12} alt="" />
+            <img src={code} alt="" />
           </span>
-          <h2 className="major">Frontend</h2>
-          <h4>
-            Our front-end toolbox extends from HTML, CSS, javascript, Angular, React, and SASS asset pre-compilers. We design your applications with built in standards-compliant and mobile responsive solutions
-          </h4>
+          <h2 className="major">Tech Support and Hosting</h2>
+          <h3>
+            We provide technical support, hosting services, SEO optimization, routine de-bugging and site maintenance / upkeep, staging site for testing new features and updates, and security against hackers
+          </h3>
           <span className="image main">
-            <img src={pic11} alt="" />
+            <img src={cube} alt="" />
           </span>
-          <h2 className="major">Backend</h2>
-          <h4>
-            Our back-end stack includes Ruby, Rails, JavaScript, and postgreSQL and SQL for database management. We aim to use the most efficient back-end technologies, allowing for fast development and testing, deployment, versatility, and customization
-          </h4>
+          <h2 className="major">Consultation</h2>
+          <h3>
+            By working closely with UX / UI designers and industry experts, we are here to educate and integrate innovative design and optimization services for your business.
+            We develop customized road maps for success, providing guidance and direction to help you achieve your business goals
+          </h3>
           <span className="image main">
-            <img src={pic10} alt="" />
-          </span>
-          <h2 className="major">API Integration</h2>
-          <h4>
-            With thousands of APIs available on the market, we have the access and ability to incorporate them into your application depending on your business needs and goals. Whether you need analytics, weather, maps, nearby locations, payment processing, or social media APIs, we have the integration solution for you
-          </h4>
-          <span className="image main">
-            <img src={pic07} alt="" />
+            <img src={consultation} alt="" />
           </span>
           {close}
         </article>
@@ -76,60 +69,47 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h1 className="major">Projects</h1>
-          <h2>Mission Booked | Web App</h2>
+          <a href="https://vidahealing.net/">
+            <h2>Vida Healing - Life Coach | Web App | Check it out! </h2>
+          </a>
+          <h3>
+            A Mobile and Web based Business application | Individual, Group, Marriage, and Couples Therapy
+          </h3>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={vida} alt="vida healing picture" />
           </span>
-          <h4>
-            WHAT: Platform that connects users with the desire to get involved in their community with a volunteer event
-          </h4>
-          <h4>
-            HOW: Created and managed our own API/database for the organizations and events rendered upon a query by the user
-          </h4>
-          <h4>
-            TECH USED: Ruby, Rails, JavaScript, React, React on Rails, React Spring/Select, HTML/CSS, PostgreSQL, Axios
-          </h4>
-          <h2>Prophesea Fish Tracker + Forum | Web App | Coming Soon!</h2>
+          <a href="https://sustainablecleaning.net/">
+            <h2>Sustainable Cleaning | Web App | Check it out!</h2>
+          </a>
+          <h3>
+            High End Luxury Retail Cleaning Services + Enviromentally Conscious Cleaning Products
+          </h3>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={sc} alt="" />
           </span>
-          <h4>
-            WHAT: Mobile and Web based application that allows users to search for sportfishing species and fishery information | Blog and Forum where fishermen can come together and disuss their favorite topics
-          </h4>
-          <h2>El Taco | Web App</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
-          <h4>
-            WHAT: Platform that allows users to search for a wide variety of Taco recipes
-          </h4>
-          <h4>
-            HOW: Utilized Edemam API allowing the site to render Taco recipe matches based on user query
-          </h4>
-          <h4>
-            TECH USED: JavaScript, React, HTML/CSS, Express, Axios, Material UI
-          </h4>
-          <h2>YSK - Digital Gallery | Web App | Coming Soon!</h2>
-          <span className="image main">
-            <img src={pic04} alt="" />
-          </span>
-          <h4>
-            WHAT: Digital Gallery showcasing Artist's work with interactive interface
-          </h4>
-          <h2>Vida Healing - Life Coach | Web App | Coming Soon!</h2>
-          <span className="image main">
-            <img src={pic05} alt="" />
-          </span>
-          <h4>
-            WHAT: Mobile and Web based Business application | Individual, Group, Marriage, and Couples Therapy
-          </h4>
           <h2>Cana La Reina - Social Collective | Web App | Coming Soon!</h2>
+          <h3>
+            WHAT: Digital Social Media Marketing Agency | Agency that specializes in engaging and custom content creation that establishes and elevates brand identity for small businesses
+          </h3>
           <span className="image main">
             <img src={pic06} alt="" />
           </span>
-          <h4>
-            WHAT: Digital Social Media Marketing Agency | Agency that specializes in engaging and custom content creation that establishes and elevates brand identity for small businesses
-          </h4>
+          <h2>Prophesea Fish Tracker + Forum | Web App | Coming Soon!</h2>
+          <h3>
+            WHAT: Mobile and Web based application that allows users to search for sportfishing species and fishery information | Blog and Forum where fishermen can come together and disuss their favorite topics
+          </h3>
+          <span className="image main">
+            <img src={pic02} alt="" />
+          </span>
+          <span className="image main">
+          </span>
+          <h2>YSK - Digital Gallery | Web App | Coming Soon!</h2>
+          <h3>
+            WHAT: Digital Gallery showcasing Artist's work with interactive interface
+          </h3>
+          <span className="image main">
+            <img src={pic04} alt="" />
+          </span>
           {close}
         </article>
 
@@ -140,36 +120,27 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h1 className="major">About</h1>
+          <h1 className="major">Who We are</h1>
           <h3>
-            Prophecy Web Solutions is a full-service web development agency founded in 2020 in Miami Florida, by Shawn Marcotte Jr.  Our goal is to provide clients with solutions that will increase business and online conversions by building custom, functional, aesthetically pleasing applications
+            Prophecy Web Solutions is a full-service web development agency founded in 2020 in Miami Florida. Our goal is to provide clients with solutions that will increase business and online conversions by building custom, functional, aesthetically pleasing applications
           </h3>
           <span className="image main">
-            <img src={pic08} alt="" />
-            <h1></h1>
+            <img src={compass} alt="" />
+            <br />
             <h1>
-              <li>
-                DEVELOPMENT
-            </li>
+              What We do
             </h1>
             <h3>
-              By utilizing the latest technologies on the market, we have the ability to quickly and efficiently get your application up and running
+              We develop innovative and functional custom web and mobile applications that generate more revenue and improve efficiency for your business using the latest technology on the market
             </h3>
+            <br />
+            <img src={shoes} alt="" />
+            <br />
             <h1>
-              <li>
-                CONSULTATION
-              </li>
+              Why We Do it
             </h1>
             <h3>
-              We work closely with UX/UI designers and industry experts in order to educate and integrate innovative design / optimization services
-            </h3>
-            <h1>
-              <li>
-                MANAGEMENT
-            </li>
-            </h1>
-            <h3>
-              Your application will be managed and hosted with cloud based platforms allowing for seamless and regular management to suit your business needs
+              Starting a business or changing directions can be a challenge, but we are here to help build and enhance your online presence. Your application will be managed and hosted with cloud based platforms allowing for seamless and regular management to suit your business needs as they develop
             </h3>
           </span>
           {close}
@@ -182,7 +153,7 @@ class Main extends React.Component {
             }`}
           style={{ display: 'none' }}
         >
-          <h1 className="major">Contact</h1>
+          <h1 className="major">Lets Work Together!</h1>
           <form method="post" netlify-honeypot="bot-field" data-netlify="true">
             <input type="hidden" name="bot-field" />
             <div className="field half first">
@@ -213,24 +184,19 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://github.com/shawnpmarcotte"
-                className="icon fa-github"
+                href="https://www.instagram.com/prophecywebsolutions/"
+                className="icon fa-instagram"
               >
-                <span className="label">GitHub</span>
+                <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/in/shawn-marcotte-jr/"
+                href="https://www.linkedin.com/company/prophecy-web-solutions"
                 className="icon fa-linkedin"
               >
                 <span className="label">linkedin</span>
               </a>
-            </li>
-            <li className="resume">
-              <a href={resume} title="DOWNLOAD SHAWN'S RESUME" download="Resume_Shawn Marcotte"
-                className="icon fal fa-file"
-              ></a>
             </li>
           </ul>
           {close}
