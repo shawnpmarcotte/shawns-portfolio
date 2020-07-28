@@ -80,6 +80,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h1 className="major">Projects</h1>
+          {/*VIDA HEALING PROJECT*/}
           <a href="https://vidahealing.net/">
             <h2>Vida Healing - Life Coach | Web App | Check it out! </h2>
           </a>
@@ -90,6 +91,8 @@ class Main extends React.Component {
           <span className="image main">
             <img src={vida} alt="vida healing picture" />
           </span>
+          <hr />
+          {/*SUSTAINABLE CLEANING PROJECT*/}
           <a href="https://sustainablecleaning.net/">
             <h2>Sustainable Cleaning | Web App | Check it out!</h2>
           </a>
@@ -100,6 +103,8 @@ class Main extends React.Component {
           <span className="image main">
             <img src={sc} alt="" />
           </span>
+          <hr />
+          {/*CANA LA REINA PROJECT*/}
           <h2>Cana La Reina - Social Collective | Web App | Coming Soon!</h2>
           <h3>
             WHAT: Digital Social Media Marketing Agency | Agency that
@@ -109,16 +114,22 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic06} alt="" />
           </span>
+          <hr />
+          {/*DK ATHLETICS PROJECT*/}
           <h2>DK Athletics - Personal Trainer | Web App | Coming Soon!</h2>
           {/* <h3>WHAT: Something about Dk</h3> */}
           <span className="image main">
             <img src={dkathletics} alt="" />
           </span>
+          <hr />
+          {/*PROTON MINISTRIES PROJECT*/}
           <h2>Proton Ministries Global Network | Web App | Coming Soon!</h2>
           {/* <h3>WHAT: Something about proton</h3> */}
           <span className="image main">
             <img src={proton} alt="" />
           </span>
+          <hr />
+          {/*PROPHESEA FISH TRACKER PROJECT*/}
           <h2>Prophesea Fish Tracker + Forum | Web App | Coming Soon!</h2>
           <h3>
             WHAT: Mobile and Web based application that allows users to search
@@ -128,7 +139,8 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <span className="image main"></span>
+          <hr />
+          {/*YKS PROJECT*/}
           <h2>YSK - Digital Gallery | Web App | Coming Soon!</h2>
           <h3>
             WHAT: Digital Gallery showcasing Artist's work with interactive
@@ -137,6 +149,7 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic04} alt="" />
           </span>
+          <hr />
           {close}
         </article>
 
