@@ -1,10 +1,14 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+
+//Import Images
 import sc from '../images/sc.png'
 import pic02 from '../images/pic02.jpg'
 import pic04 from '../images/pic04.jpg'
 import pic05 from '../images/pic05.jpg'
 import pic06 from '../images/pic06.jpg'
+import dkathletics from '../images/dkathletics.png'
+import proton from '../images/proton.png'
 import consultation from '../images/consultation.jpg'
 import compass from '../images/compass.jpg'
 import shoes from '../images/shoes.jpg'
@@ -104,6 +108,16 @@ class Main extends React.Component {
           </h3>
           <span className="image main">
             <img src={pic06} alt="" />
+          </span>
+          <h2>DK Athletics - Personal Trainer | Web App | Coming Soon!</h2>
+          {/* <h3>WHAT: Something about Dk</h3> */}
+          <span className="image main">
+            <img src={dkathletics} alt="" />
+          </span>
+          <h2>Proton Ministries Global Network | Web App | Coming Soon!</h2>
+          {/* <h3>WHAT: Something about proton</h3> */}
+          <span className="image main">
+            <img src={proton} alt="" />
           </span>
           <h2>Prophesea Fish Tracker + Forum | Web App | Coming Soon!</h2>
           <h3>
